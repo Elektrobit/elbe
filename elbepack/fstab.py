@@ -148,7 +148,7 @@ class fstabentry(hdpart):
             depth += 1
 
     def get_label_opt(self):
-        if self.fstype in ('ext4', 'ext3', 'ext2', 'btrfs'):
+        if self.fstype in ('ext4', 'ext3', 'ext2', 'btrfs', 'xfs'):
             return '-L ' + self.label
         if self.fstype == 'vfat':
             return '-n ' + self.label

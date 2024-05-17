@@ -2039,6 +2039,7 @@ SPDX-FileCopyrightText: Linutronix GmbH
       <enumeration value="btrfs" />
       <enumeration value="devtmpfs" />
       <enumeration value="swap" />
+      <enumeration value="xfs" />
     </restriction>
   </simpleType>
 
